@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [suite 1]">
+  <listeners>
+    <listener class-name="com.ril.Feedzai.Utility.RetryListenerClass"/>
+    <listener class-name="com.ril.Feedzai.Utility.ListnerImpl"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Feedzai Automation1(failed)">
+    <classes>
+      <class name="com.ril.feedzai.testScript.FeedzaiAMViewAlert">
+        <methods>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="MarkAlertNotFraud"/>
+          <include name="TestDataSetup"/>
+          <include name="SelectAlert"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.FeedzaiAMViewAlert -->
+    </classes>
+  </test> <!-- Feedzai Automation1(failed) -->
+</suite> <!-- Failed suite [suite 1] -->

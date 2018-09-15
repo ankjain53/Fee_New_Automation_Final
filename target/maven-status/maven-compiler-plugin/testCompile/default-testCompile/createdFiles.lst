@@ -1,0 +1,17 @@
+com\ril\feedzai\testScript\JPB_Customer_Search.class
+com\ril\feedzai\testScript\FeedzaiAMViewAlert.class
+com\ril\feedzai\testScript\FeedzaiAMMerchantSearch.class
+com\ril\feedzai\testScript\FeedzaiAMViewTransDetail.class
+com\ril\feedzai\testScript\FeedzaiAMMoveAlertToQueue.class
+com\ril\feedzai\testScript\FeedzaiAMReports.class
+com\ril\feedzai\testScript\FeedzaiAMVerifyAlertInQueue.class
+com\ril\feedzai\testScript\AlertManagerCustomerScreen.class
+com\ril\feedzai\testScript\AM_IBW_TranDetails.class
+com\ril\feedzai\testScript\FeedzaiAMAgentSearch.class
+com\ril\feedzai\testScript\FeedzaiPulseHomePage.class
+com\ril\feedzai\testScript\AM_MPP_TranDetails.class
+com\ril\feedzai\testScript\AlertManagerSearchScreen.class
+com\ril\feedzai\testScript\AM_LMW_TranDetails.class
+com\ril\feedzai\testScript\AM_P2M_TranDetails.class
+com\ril\feedzai\testScript\JPB_Advance_Search.class
+com\ril\feedzai\testScript\HoldandRelease.class

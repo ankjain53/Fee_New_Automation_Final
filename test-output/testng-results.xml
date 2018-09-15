@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite 1" duration-ms="59353" started-at="2018-09-03T09:46:11Z" finished-at="2018-09-03T09:47:11Z">
+    <groups>
+      <group name="ALERT">
+        <method signature="FeedzaiAMViewAlert.MarkAlertNotFraud()[pri:1, instance:com.ril.feedzai.testScript.FeedzaiAMViewAlert@9ba398]" name="MarkAlertNotFraud" class="com.ril.feedzai.testScript.FeedzaiAMViewAlert"/>
+      </group> <!-- ALERT -->
+    </groups>
+    <test name="Feedzai Automation1" duration-ms="59353" started-at="2018-09-03T09:46:11Z" finished-at="2018-09-03T09:47:11Z">
+      <class name="com.ril.feedzai.testScript.FeedzaiAMViewAlert">
+        <test-method status="PASS" signature="TestDataSetup()[pri:0, instance:com.ril.feedzai.testScript.FeedzaiAMViewAlert@9ba398]" name="TestDataSetup" is-config="true" duration-ms="6710" started-at="2018-09-03T09:46:05Z" finished-at="2018-09-03T09:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataSetup -->
+        <test-method status="PASS" signature="SelectAlert()[pri:0, instance:com.ril.feedzai.testScript.FeedzaiAMViewAlert@9ba398]" name="SelectAlert" is-config="true" duration-ms="31633" started-at="2018-09-03T09:46:11Z" description="Verification of Alert Tab" finished-at="2018-09-03T09:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAlert -->
+        <test-method status="PASS" signature="MarkAlertNotFraud()[pri:1, instance:com.ril.feedzai.testScript.FeedzaiAMViewAlert@9ba398]" name="MarkAlertNotFraud" duration-ms="27321" started-at="2018-09-03T09:46:43Z" description="Mark Alert Not Fraud" finished-at="2018-09-03T09:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkAlertNotFraud -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ril.feedzai.testScript.FeedzaiAMViewAlert@9ba398]" name="getResult" is-config="true" duration-ms="223" started-at="2018-09-03T09:47:10Z" finished-at="2018-09-03T09:47:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MarkAlertNotFraud status=SUCCESS method=FeedzaiAMViewAlert.MarkAlertNotFraud()[pri:1, instance:com.ril.feedzai.testScript.FeedzaiAMViewAlert@9ba398] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.ril.feedzai.testScript.FeedzaiAMViewAlert@9ba398]" name="endReport" is-config="true" duration-ms="4880" started-at="2018-09-03T09:47:11Z" finished-at="2018-09-03T09:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.ril.feedzai.testScript.FeedzaiAMViewAlert -->
+    </test> <!-- Feedzai Automation1 -->
+  </suite> <!-- suite 1 -->
+</testng-results>

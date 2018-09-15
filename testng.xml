@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite 1" verbose="1">
+	<listeners>
+		<listener
+			class-name="com.ril.Feedzai.Utility.RetryListenerClass" />
+		<listener class-name="com.ril.Feedzai.Utility.ListnerImpl" />
+	</listeners>
+	<test name="Feedzai Automation1" preserve-order="true">
+		<classes>
+
+			 <class name="com.ril.feedzai.testScript.FeedzaiAMViewAlert" />
+			 <!-- <class name="com.ril.feedzai.testScript.FeedzaiAMMoveAlertToQueue" 
+				/>
+			  <class
+				name="com.ril.feedzai.testScript.FeedzaiAMViewTransDetail" />
+			<class
+				name="com.ril.feedzai.testScript.AlertManagerCustomerScreen" />
+			<class
+				name="com.ril.feedzai.testScript.FeedzaiAMMerchantSearch" />
+			<class name="com.ril.feedzai.testScript.FeedzaiAMAgentSearch" />
+			<class
+				name="com.ril.feedzai.testScript.FeedzaiAMVerifyAlertInQueue" />
+			<class name="com.ril.feedzai.testScript.FeedzaiAMReports" />
+			 <class
+				name="com.ril.feedzai.testScript.AlertManagerSearchScreen" />
+		 	<class name="com.ril.feedzai.testScript.HoldandRelease" /> 
+			<class name="com.ril.feedzai.testScript.JPB_Advance_Search" />
+			<class name="com.ril.feedzai.testScript.JPB_Customer_Search" />  
+			 <class name="com.ril.feedzai.testScript.AM_LMW_TranDetails" /> 
+			<class name="com.ril.feedzai.testScript.AM_MPP_TranDetails" />
+			<class name="com.ril.feedzai.testScript.AM_IBW_TranDetails" />
+			<class name="com.ril.feedzai.testScript.AM_P2M_TranDetails" /> 
+			
+			
+			<class name="com.ril.feedzai.testScript.FeedzaiPulseHomePage" />  -->
+  
+		</classes>
+	</test>
+</suite> 
+  

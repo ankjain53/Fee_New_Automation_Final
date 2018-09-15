@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite 1]">
+  <listeners>
+    <listener class-name="com.ril.Feedzai.Utility.RetryListenerClass"/>
+    <listener class-name="com.ril.Feedzai.Utility.ListnerImpl"/>
+  </listeners>
+  <test thread-count="5" name="Feedzai Automation1(failed)">
+    <classes>
+      <class name="com.ril.feedzai.testScript.AM_LMW_TranDetails">
+        <methods>
+          <include name="LMW_transaction_details"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="TestDataSetup"/>
+          <include name="P2M_Tran_Data"/>
+          <include name="LMW_Customer_dt"/>
+          <include name="LMW_Instrument_details"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.AM_LMW_TranDetails -->
+      <class name="com.ril.feedzai.testScript.JPB_Advance_Search">
+        <methods>
+          <include name="getResult"/>
+          <include name="Beneficiary_MMID"/>
+          <include name="Sender_MMID"/>
+          <include name="endReport"/>
+          <include name="Sender_pan"/>
+          <include name="TestDataSetup"/>
+          <include name="AdvanceSearchSetup"/>
+          <include name="Advance_Search"/>
+          <include name="Beneficiary_pan"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.JPB_Advance_Search -->
+      <class name="com.ril.feedzai.testScript.AM_MPP_TranDetails">
+        <methods>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="MPP_Customer_dt"/>
+          <include name="TestDataSetup"/>
+          <include name="MPP_Tran_Data"/>
+          <include name="MPP_Card_dt"/>
+          <include name="MPP_transaction_dt"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.AM_MPP_TranDetails -->
+      <class name="com.ril.feedzai.testScript.AM_P2M_TranDetails">
+        <methods>
+          <include name="P2M_Customer_Data"/>
+          <include name="getResult"/>
+          <include name="P2M_cust_app_id"/>
+          <include name="endReport"/>
+          <include name="TestDataSetup"/>
+          <include name="P2M_merchant_app_id"/>
+          <include name="P2M_Tran_Data"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.AM_P2M_TranDetails -->
+      <class name="com.ril.feedzai.testScript.AlertManagerSearchScreen">
+        <methods>
+          <include name="endReport"/>
+          <include name="AdvanceSearchResponseCode"/>
+          <include name="AdvanceSearchProcessCode"/>
+          <include name="searchOpen"/>
+          <include name="AdvanceSearchSrcInstID"/>
+          <include name="AdvanceSearchCustAppID"/>
+          <include name="AdvanceSearchHashedCardPan"/>
+          <include name="getResult"/>
+          <include name="AdvanceSearchCardBin"/>
+          <include name="AdvanceSearchSenderPan"/>
+          <include name="TestDataSetup"/>
+          <include name="AdvanceSearchCusNum"/>
+          <include name="AdvanceSearchMerNum"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.AlertManagerSearchScreen -->
+      <class name="com.ril.feedzai.testScript.AM_IBW_TranDetails">
+        <methods>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="TestDataSetup"/>
+          <include name="IBW_Payment_Details"/>
+          <include name="P2M_Tran_Data"/>
+          <include name="IBW_Customer_Details"/>
+          <include name="IBW_transaction_Details"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.AM_IBW_TranDetails -->
+      <class name="com.ril.feedzai.testScript.JPB_Customer_Search">
+        <methods>
+          <include name="endReport"/>
+          <include name="Customer_Details_Account_Details"/>
+          <include name="Tran_density"/>
+          <include name="JM_Customer_Search"/>
+          <include name="Customer_Search_CIFID"/>
+          <include name="Fraud_Details"/>
+          <include name="Customer_Details_CIFID"/>
+          <include name="Transactions_Details"/>
+          <include name="Status_Log_Details"/>
+          <include name="Activity_Period"/>
+          <include name="getResult"/>
+          <include name="TestDataSetup"/>
+          <include name="transaction_History"/>
+          <include name="Customer_Details_Account_Number"/>
+          <include name="transaction_Statistic"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.JPB_Customer_Search -->
+      <class name="com.ril.feedzai.testScript.FeedzaiPulseHomePage">
+        <methods>
+          <include name="getResult"/>
+          <include name="PulseVersion"/>
+          <include name="endReport"/>
+          <include name="feedzai_Login"/>
+          <include name="TestDataSetup"/>
+          <include name="Healthcheck"/>
+          <include name="EnableTimeMachine"/>
+          <include name="DistributionJob"/>
+          <include name="feedzai_Logout"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.FeedzaiPulseHomePage -->
+      <class name="com.ril.feedzai.testScript.HoldandRelease">
+        <methods>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="markSuspicious"/>
+          <include name="TestDataSetup"/>
+          <include name="viewTransaction"/>
+          <include name="markAsNotFraud"/>
+        </methods>
+      </class> <!-- com.ril.feedzai.testScript.HoldandRelease -->
+    </classes>
+  </test> <!-- Feedzai Automation1(failed) -->
+</suite> <!-- Failed suite [suite 1] -->
